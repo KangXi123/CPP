@@ -3,7 +3,7 @@
 #include<cstring>
 using namespace std;
 
-//ÊÇ·ñÊÇÓ¢ÎÄ×ÖÄ¸
+//æ˜¯å¦æ˜¯è‹±æ–‡å­—æ¯
 bool ZM(char ch) 
 {
 	if (ch >= 'a' && ch <= 'z')return 1;

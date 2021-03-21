@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-int f(int x) { if (x == 1)return 1; else return f(x - 1) + x - 1; }//µÚxÐÐµÄµÚÒ»¸öÔªËØ
-int g(int x, int m) { if (m == 1)return f(x); else return g(x, m - 1) + x + m - 1; }//µÚxÐÐµÚm¸öÔªËØ
+int f(int x) { if (x == 1)return 1; else return f(x - 1) + x - 1; }//ç¬¬xè¡Œçš„ç¬¬ä¸€ä¸ªå…ƒç´ 
+int g(int x, int m) { if (m == 1)return f(x); else return g(x, m - 1) + x + m - 1; }//ç¬¬xè¡Œç¬¬mä¸ªå…ƒç´ 
 int main()
 {
 
@@ -11,8 +11,8 @@ int main()
 	while (cin >> x)
 	{
 		
-		for (n = 1; 2 * x > (n+1 )* n; ++n) {}//ÇóÐÐÊýn
-		for (int i = 1;i<=n; i++)//µÚiÐÐµÄÊä³ö 
+		for (n = 1; 2 * x > (n+1 )* n; ++n) {}//æ±‚è¡Œæ•°n
+		for (int i = 1;i<=n; i++)//ç¬¬iè¡Œçš„è¾“å‡º 
 		{
 			for (m = 1; g(i, m) < x&&g(i,m+1)<=x; ++m) { cout << g(i, m) << " "; }
 			cout << g(i, m)<<endl;

@@ -15,7 +15,7 @@ bool MS(int n)
 	return 1;
 }
 
-//n是最大的梅森素数
+//n鏄渶澶х殑姊呮．绱犳暟
 bool ZD(int n,int M)
 {
 	int a[10]; a[0] = n;

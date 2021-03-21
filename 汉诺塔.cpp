@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//h:输出解决汉诺塔问题步骤的函数
+//h:杈撳嚭瑙ｅ喅姹夎濉旈棶棰樻楠ょ殑鍑芥暟
 void h(int n, char A, char B, char C)
 {
 	if (n == 1)cout << A << "--->" << C<<endl;
